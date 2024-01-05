@@ -46,3 +46,4 @@ public class ToDoController {
         return modelAndView;
     }
 }
+//curl -H "Accept: application/json" localhost:8080/todo/toDos
