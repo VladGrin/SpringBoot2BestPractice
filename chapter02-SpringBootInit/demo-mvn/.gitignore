@@ -46,6 +46,7 @@ jTcpTransport.dll
 ### VS Code ###
 /index.pb
 .gradle
+gradle
 out
 build
 gradle
