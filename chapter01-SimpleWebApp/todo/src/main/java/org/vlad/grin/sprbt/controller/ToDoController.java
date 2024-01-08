@@ -1,7 +1,7 @@
-package com.apress.todo.controller;
+package org.vlad.grin.sprbt.controller;
 
-import com.apress.todo.domain.ToDo;
-import com.apress.todo.repository.ToDoRepository;
+import org.vlad.grin.sprbt.domain.ToDo;
+import org.vlad.grin.sprbt.repository.ToDoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

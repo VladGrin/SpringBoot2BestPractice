@@ -1,4 +1,4 @@
-package com.apress.todo.config;
+package org.vlad.grin.sprbt.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
