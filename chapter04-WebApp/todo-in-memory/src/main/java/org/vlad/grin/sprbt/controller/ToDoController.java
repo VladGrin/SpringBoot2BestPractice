@@ -37,7 +37,7 @@ public class ToDoController {
         return ResponseEntity.ok(repository.findById(id));
     }
 
-    @PatchMapping("/todo/{id}")
+    @PostMapping("/todo/{id}")
     public ResponseEntity<ToDo> setCompleted(@PathVariable String id) {
         ToDo result = repository.findById(id);
         result.setCompleted(true);
