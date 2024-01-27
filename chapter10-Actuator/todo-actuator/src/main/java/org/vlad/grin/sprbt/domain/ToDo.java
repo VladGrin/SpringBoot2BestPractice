@@ -1,4 +1,4 @@
-package com.apress.todo.domain;
+package org.vlad.grin.sprbt.domain;
 
 
 import lombok.Data;

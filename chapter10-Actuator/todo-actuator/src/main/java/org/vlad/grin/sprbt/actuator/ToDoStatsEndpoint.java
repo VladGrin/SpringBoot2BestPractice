@@ -1,11 +1,11 @@
-package com.apress.todo.actuator;
+package org.vlad.grin.sprbt.actuator;
 
-import com.apress.todo.domain.ToDo;
-import com.apress.todo.repository.ToDoRepository;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.boot.actuate.endpoint.annotation.*;
 import org.springframework.stereotype.Component;
+import org.vlad.grin.sprbt.domain.ToDo;
+import org.vlad.grin.sprbt.repository.ToDoRepository;
 
 @Component
 @Endpoint(id="todo-stats")
