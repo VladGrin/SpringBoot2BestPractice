@@ -1,4 +1,4 @@
-package com.apress.todo.actuator;
+package org.vlad.grin.sprbt.actuator;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.actuate.health.Health;

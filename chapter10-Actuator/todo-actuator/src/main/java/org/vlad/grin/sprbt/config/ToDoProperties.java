@@ -1,4 +1,4 @@
-package com.apress.todo.config;
+package org.vlad.grin.sprbt.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
