@@ -1,11 +1,11 @@
-package com.apress.todo.cloud;
+package org.vlad.grin.sprbt.cloud;
 
-import com.apress.todo.domain.ToDo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.cloud.stream.messaging.Sink;
+import org.vlad.grin.sprbt.domain.ToDo;
 
 @EnableBinding(Sink.class)
 public class ToDoSink {

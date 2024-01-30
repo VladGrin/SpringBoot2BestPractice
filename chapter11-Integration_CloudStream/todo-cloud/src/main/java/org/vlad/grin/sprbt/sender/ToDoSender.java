@@ -1,11 +1,11 @@
-package com.apress.todo.sender;
+package org.vlad.grin.sprbt.sender;
 
-import com.apress.todo.domain.ToDo;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;
+import org.vlad.grin.sprbt.domain.ToDo;
 
 @Configuration
 public class ToDoSender {
